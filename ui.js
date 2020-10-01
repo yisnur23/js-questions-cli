@@ -239,7 +239,6 @@ const Question = ({
 	);
 };
 const App = () => {
-	console.log(__dirname);
 	const questions = getQuestions();
 
 	const [userInfo, setUserInfo] = useState({});
